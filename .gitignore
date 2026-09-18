@@ -1,0 +1,45 @@
+# ─── Build output ───────────────────────────────────────────
+target/
+
+# ─── Java compiled classes ──────────────────────────────────
+*.class
+
+# ─── Logs ───────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Environment / secrets ──────────────────────────────────
+.env
+.env.local
+*.env
+
+# ─── IDE files ──────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# ─── OS files ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Maven wrapper (optional — keep if used) ────────────────
+# .mvn/
+# mvnw
+# mvnw.cmd
+
+# ─── Spring Boot packaged jar (exclude from repo) ───────────
+*.jar
+*.war
+
+# ─── No frontend files should ever appear here ──────────────
+node_modules/
