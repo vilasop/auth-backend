@@ -42,4 +42,4 @@ Thumbs.db
 *.war
 
 # ─── No frontend files should ever appear here ──────────────
-node_modules/
+node_modules/git status
