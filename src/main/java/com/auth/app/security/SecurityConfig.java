@@ -112,7 +112,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
     "http://localhost:5173",
-    "https://YOUR-ACTUAL-VERCEL-URL.vercel.app"
+    "https://auth-frontend-d6jhx5ygw-vilas-op.vercel.app"
 ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
